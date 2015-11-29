@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints
+  xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+  version="2.0">
+  <endpoint
+    name="ALumnoWS"
+    implementation="com.ipartek.formacion.webservice.AlumnoWSImpl"
+    url-pattern="/alumnows"/>
+    <endpoint
+    name="CursoWS"
+    implementation="com.ipartek.formacion.webservice.CursoWSImpl"
+    url-pattern="/cursows"/>
+</endpoints>

@@ -1,0 +1,15 @@
+# Archivos de configuración
+.svn
+.buildpath
+.idea
+.project
+.settings
+.classpath
+
+# Directorios de J2EE
+WebContent/META-INF/*
+WebContent/WEB-INF/conf/*
+WebContent/WEB-INF/lib/*
+
+# Otros  
+build/*
